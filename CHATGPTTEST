@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phillip Phillips' Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .about, .portfolio, .contact {
+            border: 2px solid #004d40;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #b2dfdb;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #00796b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Phillip Phillips</h1>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Once upon a time, in a land far, far away, Phillip Phillips embarked on a daring quest. Armed with only his courage and a trusty sword, he faced the mighty dragon that had been terrorizing his village. The battle was fierce, but Phillip's bravery and determination never wavered. With a final, powerful strike, he slew the dragon and saved his people, becoming a legendary hero whose tale would be told for generations to come.</p>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <img src="https://via.placeholder.com/300x200?text=Puppy+1" alt="Puppy 1">
+        <img src="https://via.placeholder.com/300x200?text=Puppy+2" alt="Puppy 2">
+        <img src="https://via.placeholder.com/300x200?text=Puppy+3" alt="Puppy 3">
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Sorry, down for maintenance.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Phillip Phillips</p>
+    </footer>
+</body>
+</html>
